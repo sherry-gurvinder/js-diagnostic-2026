@@ -1,7 +1,7 @@
 // Task 1: sumBy
 // sumBy([{a:1},{a:2}], x => x.a) -> 3
 function sumBy(arr, fn) {
-  // TODO
+  return arr.reduce((sum,item)=>sum+fn(item),0);
 }
 
 // Task 2: uniqueBy
